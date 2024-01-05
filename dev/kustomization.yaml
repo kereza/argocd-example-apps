@@ -1,3 +1,0 @@
-resources:
-- ../kustomize-guestbook
-namePrefix: dev-

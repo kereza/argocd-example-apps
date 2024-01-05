@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: avalanche-service
+spec:
+  selector:
+    app: avalanche
+  ports:
+  - name: avalanche-port
+    protocol: TCP
+    port: 9650
+    targetPort: 9650
